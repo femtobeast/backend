@@ -1,6 +1,6 @@
 const setUpDatabase = () => {
     
-        const connect = require('mongoose').connect(`${process.env.MONGO_DB_LOCAL}`, {
+        const connect = require('mongoose').connect(`${process.env.MONGO_DB_CLOUD}`, {
             useNewUrlParser: true, useCreateIndex: true,
             useUnifiedTopology: true,
             useFindAndModify: false
